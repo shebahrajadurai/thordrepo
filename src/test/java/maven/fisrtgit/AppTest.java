@@ -26,6 +26,7 @@ public class AppTest
     {
         String actual1 = driver.getTitle();
         AssertJUnit.assertEquals("Title doesnt match", "Google",actual1);
+        // some code added
     }
    
    @AfterMethod
